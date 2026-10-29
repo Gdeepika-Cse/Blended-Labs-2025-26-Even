@@ -62,8 +62,6 @@ HTTP on port 80
 Launch an EC2 instance inside the public subnet using Amazon Linux 2 AMI and a suitable instance type (t2.micro).
 
 Attach the previously created security group and key pair.
-<img width="1162" height="1013" alt="Screenshot 2026-10-23 134653" src="https://github.com/user-attachments/assets/d3e36918-7717-4025-ba26-1ea886cbb61d" />
-<img width="1162" height="1013" alt="Screenshot 2026-10-23 134653" src="https://github.com/user-attachments/assets/5cb5c797-f30b-457c-894a-381be0367f0a" />
 
 ### Task 7: Configure Web Server
 

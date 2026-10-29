@@ -2,25 +2,19 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
----
+## Name: DEEPIKA G
+## Register Number: 212224040060
+## Date of Submission: 29.10.26
 
 ## Objective
 
 The objective of this experiment is to understand how to design and configure a basic network infrastructure in AWS using a Virtual Private Cloud (VPC). This lab focuses on creating a VPC with a public subnet, configuring an Internet Gateway and route table, launching an EC2 instance, and hosting a simple web server that can be accessed over the internet.
-
----
 
 ## Prerequisites
 
 * Basic understanding of cloud computing concepts
 * AWS account or AWS Academy Lab access
 * Web browser with internet connectivity
-
----
 
 ## Tools Used
 
@@ -31,8 +25,6 @@ The objective of this experiment is to understand how to design and configure a 
 * Route Table
 * Security Groups
 
----
-
 ## Tasks Performed
 
 ### Task 1: Create a VPC
@@ -41,25 +33,21 @@ Create a new Virtual Private Cloud (VPC) with a private IP address range. The VP
 
 Students should create a VPC with an appropriate CIDR block (for example, 10.0.0.0/16) and assign a meaningful name.
 
-
 ### Task 2: Create a Public Subnet
 
 Create a subnet inside the VPC to host public resources. Enable auto-assign public IPv4 so that instances launched in this subnet receive a public IP address.
 
 The subnet should use a smaller CIDR range (for example, 10.0.1.0/24).
 
-
 ### Task 3: Create and Attach Internet Gateway
 
 Create an Internet Gateway (IGW) and attach it to the VPC. This allows communication between resources in the VPC and the internet.
-
 
 ### Task 4: Configure Route Table
 
 Create a route table and add a default route (0.0.0.0/0) pointing to the Internet Gateway. Associate this route table with the public subnet.
 
 This step ensures that traffic from the subnet can reach the internet.
-
 
 ### Task 5: Create Security Group
 
@@ -69,13 +57,13 @@ SSH on port 22
 
 HTTP on port 80
 
-
 ### Task 6: Launch EC2 Instance
 
 Launch an EC2 instance inside the public subnet using Amazon Linux 2 AMI and a suitable instance type (t2.micro).
 
 Attach the previously created security group and key pair.
-
+<img width="1162" height="1013" alt="Screenshot 2026-10-23 134653" src="https://github.com/user-attachments/assets/d3e36918-7717-4025-ba26-1ea886cbb61d" />
+<img width="1162" height="1013" alt="Screenshot 2026-10-23 134653" src="https://github.com/user-attachments/assets/5cb5c797-f30b-457c-894a-381be0367f0a" />
 
 ### Task 7: Configure Web Server
 
@@ -87,11 +75,15 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Created a VPC with the CIDR block 10.0.0.0/16 in the AWS Management Console.
+
+2. Created a public subnet with CIDR block 10.0.1.0/24 and enabled auto-assign public IPv4.
+
+3. Created and attached an Internet Gateway to the VPC, then configured a route table with a default route (0.0.0.0/0) to the Internet Gateway.
+
+4. Created a security group allowing SSH (port 22) and HTTP (port 80), then launched an EC2 instance using Amazon Linux 2 in the public subnet.
+
+5. Installed and started the Apache web server on the EC2 instance, created a simple HTML page, and accessed it through the instance's public IP address using a web browser.
 
 ---
 
@@ -99,21 +91,15 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
-
----
+<img width="1162" height="1013" alt="Screenshot 2026-10-23 134653" src="https://github.com/user-attachments/assets/5fd2f8e7-c0c0-4c86-a41f-7549a8d2be47" />
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
-
----
+<img width="1167" height="1031" alt="Screenshot 2026-10-23 140202" src="https://github.com/user-attachments/assets/5618b0b3-6d60-42b2-aa83-5e5e8097bb37" />
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
-
----
+<img width="1162" height="1026" alt="Screenshot 2026-10-23 135313" src="https://github.com/user-attachments/assets/6334ac78-52ba-45b4-afc2-18763b8dd7da" />
 
 ## Result 
 

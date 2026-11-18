@@ -1,10 +1,9 @@
 # Lab 3 – Introduction to Amazon Elastic Compute Cloud (EC2)
-
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: __DEEPIKA G__
+* **Register Number**: _212224040060_
+* **Date of Submission**: _18-11-2026_
 
 ---
 
@@ -98,11 +97,11 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+Logged into AWS Console and opened the EC2 service.
+Launched an EC2 instance using Amazon Linux 2 and t2.micro.
+Created a key pair and configured the security group.
+Connected to the instance and performed start, stop, and reboot operations.
+Monitored the instance and terminated it after completing the lab.
 
 ---
 
@@ -111,21 +110,24 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
 (Insert Screenshot Here)
+<img width="1901" height="1028" alt="Screenshot 2026-11-05 140818" src="https://github.com/user-attachments/assets/a91e50eb-cc58-4029-9cd4-d70047276fb1" />
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
 (Insert Screenshot Here)
+<img width="1918" height="983" alt="Screenshot 2026-11-05 142038" src="https://github.com/user-attachments/assets/4e284b33-54b6-4eed-9253-096bd8b7e18a" />
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
 (Insert Screenshot Here)
+<img width="1900" height="1031" alt="Screenshot 2026-11-05 142738" src="https://github.com/user-attachments/assets/bf157785-20f7-45a1-ac6f-c56339557b88" />
 
 ---
 
-## Result 
-
+## Result
+Thus, the Amazon EC2 instance was successfully launched, configured, connected through SSH, monitored, and managed using basic instance operations such as start, stop, reboot, and terminate.
 This experiment provided hands-on experience with Amazon EC2 by demonstrating how to launch, connect, manage, and monitor a virtual server in AWS. It helped in understanding the concept of Infrastructure as a Service (IaaS) and how compute resources can be provisioned and controlled on demand in the cloud.

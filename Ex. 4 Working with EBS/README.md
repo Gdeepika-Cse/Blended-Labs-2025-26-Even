@@ -1,10 +1,8 @@
 # Lab 4 – Working with Amazon Elastic Block Store (EBS)
-
 ## Author
-
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: DEEPIKA G
+* **Register Number**: 212224040060
+* **Date of Submission**: 19-11-26
 
 ---
 
@@ -78,36 +76,29 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
+Open AWS EC2 and create a new EBS volume in the same Availability Zone as the EC2 instance.
+Attach the EBS volume to the running EC2 instance.
+Connect to the EC2 instance using SSH and format the volume.
+Mount the EBS volume and create files to store sample data.
+Reboot the EC2 instance and check whether the stored data is still available.
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
 
 (Insert Screenshot Here)
-
----
+<img width="1913" height="987" alt="Screenshot 2026-11-19 102154" src="https://github.com/user-attachments/assets/a324260e-7da2-4812-a8d7-115af1a9c195" />
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
 (Insert Screenshot Here)
-
----
+<img width="1918" height="1032" alt="Screenshot 2026-11-19 102510" src="https://github.com/user-attachments/assets/4812eb3c-f40b-4ffd-a6e5-0b6062e4021c" />
 
 ### Screenshot 3: Mounted Volume with Data
 
 (Insert Screenshot Here)
-
----
+<img width="1907" height="1037" alt="Screenshot 2026-11-19 103730" src="https://github.com/user-attachments/assets/8019798d-494c-4d1a-ac83-aa817ead3f29" />
 
 ## Result / Conclusion
-
+Successfully created and attached an EBS volume to the EC2 instance, formatted and mounted it, stored data, and verified data persistence after reboot.
 This experiment demonstrated how Amazon EBS provides persistent storage for EC2 instances. By creating, attaching, formatting, and mounting an EBS volume, and by verifying data after reboot, the concept of durable block storage in the cloud was clearly understood.
